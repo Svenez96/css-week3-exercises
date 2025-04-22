@@ -7,6 +7,7 @@
 .container {
     display:flex;
     background-color: blue;
+    height: 100vh;
 }
 
 .item {
@@ -16,8 +17,10 @@
     background-color: bisque;
 }
 
-.item.b {
-    flex-basis: 350px ;
+.a{
+    align-self: center;
 }
 
-
+.c{
+    align-self: flex-end;
+}
