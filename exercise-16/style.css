@@ -8,6 +8,7 @@
     display:grid;
     grid-template-columns:repeat(5, auto);
     grid-template-rows: 100px 200px;
+    align-items:center ;
     text-align: center;
     padding: 20px;
     background-color: aquamarine;
