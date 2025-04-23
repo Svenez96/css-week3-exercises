@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 0;
+}
+
+.calculator {
+    margin: 30px;
+    display:grid;
+    grid-template-columns:repeat(4, 70px);
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    border-radius: 8px;
+    gap: 5px;
+    box-shadow: -10px 20px 10px -5px rgba(0, 0, 0, 0.305);
+}
+
+.key{
+    border-radius: 8px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: rgb(235, 253, 255);
+    transition: all ease-in-out 0.10s;
+    cursor: pointer;
+}
+
+.display{
+    grid-column: 1 / 5;
+    margin-bottom: 10px;
+    background-color:#9ACD31;  
+}
+
+.cancel{
+    background-color: #ED4632;
+    color: white;
+}
+
+.cancel:hover{
+    background-color: #ed4532bb;
+    color: rgba(255, 255, 255, 0.747);
+}
+
+.numpad{
+    background-color: white;
+}
+
+.numpad:hover{
+    background-color: rgba(255, 255, 255, 0.835);
+}
+
+
+.equal{
+    grid-area: 4 / 4 / 7 / 4; 
+    color: white;
+    background-color: #74F272;
+    line-height: 6;
+}
+
+.equal:hover{
+    
+    color: rgba(255, 255, 255, 0.76);
+    background-color: #74f272bb;
+    
+}
+
+.symbol{
+    background-color: #0F74DA;
+    color: white;
+}
+
+.symbol:hover{
+    background-color: #0f75dabd;
+    color: rgba(255, 255, 255, 0.746);
+}
